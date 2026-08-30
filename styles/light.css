@@ -21,7 +21,7 @@
   --title-color: #353430;
   --main-content-title-color: #353430;
   --main-text-color: #353430;
-  --link-shadow: 1.5px 1.5px 0px #FF8DCB;
+  --link-shadow: 2px 2px 0px #FF8DCB;
 }
 
 @media (prefers-color-scheme: light) {
@@ -38,10 +38,10 @@
   --title-color: #353430;
   --main-content-title-color: #353430;
   --main-text-color: #353430;
-  --link-shadow: 1.5px 1.5px 0px #FF8DCB;
+  --link-shadow: 2px 2px 0px #FF8DCB;
   }
 
-  .decoration-text {
+  .theme-auto .decoration-text {
     opacity: 0;
   }
 }

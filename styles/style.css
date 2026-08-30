@@ -84,7 +84,6 @@
 	.header {
 		grid-template-columns: 1fr 1fr;
 		padding: 20px 20px 20px 0;
-		block-size: 100vh;
 	}
 
 	.header__theme-menu {
@@ -219,10 +218,16 @@
 /* футер */
 .footer {
 	display: flex;
-	padding: 0;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	min-block-size: 668px;
+	block-size: 100vh;
+	max-inline-size: 100%;
 }
+
+
+
 
 @container header (inline-size > 426px) {
 	.main {
@@ -353,4 +358,78 @@
 	.how-better-block {
 		gap: 10px;
 	}
+}
+
+/* декоративная часть header */
+.decoration-block {
+	inline-size: 25px;
+	block-size: 25px;
+	position: absolute;
+}
+
+.decoration-block_up {
+	right: 10px;
+	top: 10px;
+	border-right: 1px solid var(--decoration-color);
+	border-top: 1px solid var(--decoration-color);
+}
+
+.decoration-block_bottom {
+	left: 10px;
+	bottom: 10px;
+	border-left: 1px solid var(--decoration-color);
+	border-bottom: 1px solid var(--decoration-color);
+}
+
+.decoration-text {
+	position: absolute;
+	top: 10px;
+	right: 38px;
+	color: var(--decoration-color);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+/* декоративная точка */
+.decoration-text::after {
+	content: "";
+	position: absolute;
+	background-color: var(--decoration-color);
+	inline-size: 9px;
+	block-size: 9px;
+	border-radius: 100%;
+	top: 9px;
+	left: 42px;
+	box-shadow: 0px 0px 4px 2px #ff0070;
+}
+
+@container header (inline-size > 375.2px) {
+	.decoration-text {
+		top: 20px;
+		right: 48px;
+	}
+
+	.decoration-text::after {
+		top: 10px;
+		left: 42px;
+	}
+
+	.decoration-block_up {
+		right: 20px;
+		top: 20px;
+		border-right: 1px solid var(--decoration-color);
+		border-top: 1px solid var(--decoration-color);
+	}
+
+	.decoration-block_bottom {
+		left: 20px;
+		bottom: 20px;
+		border-left: 1px solid var(--decoration-color);
+		border-bottom: 1px solid var(--decoration-color);
+	}
+}
+
+.theme-light .decoration-text {
+	opacity: 0;
 }
