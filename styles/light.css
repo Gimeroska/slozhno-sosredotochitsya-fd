@@ -39,6 +39,7 @@
   --main-content-title-color: #353430;
   --main-text-color: #353430;
   --link-shadow: 2px 2px 0px #FF8DCB;
+  --footer-title-text-shadow: 2px 2px 0 #FF8DCB;
   }
 
   .theme-auto .decoration-text {

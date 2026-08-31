@@ -226,7 +226,9 @@
 	max-inline-size: 100%;
 }
 
-
+.footer-title {
+	text-shadow: var(--footer-title-text-shadow);
+}
 
 
 @container header (inline-size > 426px) {
@@ -282,7 +284,7 @@
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: min-content, repeat(3, 1fr);
 		gap: 20px;
-		width: clamp(728px, 100%, 984px);
+		width: clamp(386px, 100%, 984px);
 		margin: 30px auto 60px;
 	}
 
@@ -389,6 +391,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
+	opacity: 0
 }
 
 /* декоративная точка */
@@ -426,10 +429,5 @@
 		left: 20px;
 		bottom: 20px;
 		border-left: 1px solid var(--decoration-color);
-		border-bottom: 1px solid var(--decoration-color);
 	}
-}
-
-.theme-light .decoration-text {
-	opacity: 0;
 }
