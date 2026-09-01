@@ -230,7 +230,7 @@
 	text-shadow: var(--footer-title-text-shadow);
 }
 
-@container header (inline-size > 426px) {
+@container header (inline-size >= 568px) {
 	.main {
 		margin-top: 60px;
 		padding: 0 20px;
@@ -406,7 +406,7 @@
 	box-shadow: 0px 0px 4px 2px #ff0070;
 }
 
-@container header (inline-size > 375.2px) {
+@container header (inline-size >= 568px) {
 	.decoration-text {
 		top: 20px;
 		right: 48px;
