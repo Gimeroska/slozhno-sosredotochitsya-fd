@@ -22,7 +22,7 @@
 	--main-content-title-color: #ff0070;
 	--main-text-color: #f1b2ce;
 	--link-shadow: 2px 2px 0px #ff0070;
-    --footer-title-text-shadow: 2px 2px 0 #ff0070;
+  	--footer-title-text-shadow: 2px 2px 0 #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -227,6 +227,7 @@
 }
 
 .footer-title {
+	text-shadow: none;
 	text-shadow: var(--footer-title-text-shadow);
 }
 
@@ -421,13 +422,12 @@
 	.decoration-block_up {
 		right: 20px;
 		top: 20px;
-		border-right: 1px solid var(--decoration-color);
-		border-top: 1px solid var(--decoration-color);
 	}
 
 	.decoration-block_bottom {
 		left: 20px;
 		bottom: 20px;
-		border-left: 1px solid var(--decoration-color);
 	}
 }
+
+/* извините за такие глупые ошибки, учиться приходиться в основном ночью, а предстоящая учеба заставляеет торопиться. Спасибо, что расписываете то, в чем заключается ошибка */

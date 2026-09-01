@@ -22,24 +22,25 @@
   --main-content-title-color: #353430;
   --main-text-color: #353430;
   --link-shadow: 2px 2px 0px #FF8DCB;
+  --footer-title-text-shadow: 2px 2px 0 #FF8DCB;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --cover-bg-image: url(../images/cover-image-light.png);
-  --cover-bg-color: #FFF1F7;
-  --decoration-color: #353430;
-  --button-color: #353430;
-  --hover-button-border: #32312D66;
-  --main-title-text-color: #FFC2E6;
-  --main-title-text-shadow: 4px 4px 0px #FF8DCB;
-  --bg-color-text-block: #FF8DCB;
-  --block-title-color: #353430;
-  --title-color: #353430;
-  --main-content-title-color: #353430;
-  --main-text-color: #353430;
-  --link-shadow: 2px 2px 0px #FF8DCB;
-  --footer-title-text-shadow: 2px 2px 0 #FF8DCB;
+    --cover-bg-image: url(../images/cover-image-light.png);
+    --cover-bg-color: #FFF1F7;
+    --decoration-color: #353430;
+    --button-color: #353430;
+    --hover-button-border: #32312D66;
+    --main-title-text-color: #FFC2E6;
+    --main-title-text-shadow: 4px 4px 0px #FF8DCB;
+    --bg-color-text-block: #FF8DCB;
+    --block-title-color: #353430;
+    --title-color: #353430;
+    --main-content-title-color: #353430;
+    --main-text-color: #353430;
+    --link-shadow: 2px 2px 0px #FF8DCB;
+    --footer-title-text-shadow: 2px 2px 0 #FF8DCB;
   }
 
   .theme-auto .decoration-text {
